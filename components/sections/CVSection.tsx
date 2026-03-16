@@ -5,7 +5,7 @@ import SectionHeading from "@/components/layout/SectionHeading";
 
 export default function CVSection() {
   return (
-    <section id="cv" className="max-w-[1100px] mx-auto px-6 py-32">
+    <section id="CV" className="max-w-[1100px] mx-auto px-6 py-32">
       <SectionHeading
         title="Curriculum Vitae"
         className="text-3xl md:text-4xl font-semibold tracking-wide text-white/90 text-center mb-16"
@@ -13,7 +13,7 @@ export default function CVSection() {
       <div className="max-w-[720px] mx-auto">
         <div className="w-full overflow-hidden rounded-xl border border-white/10 bg-white/[0.02] shadow-[0_20px_60px_rgba(0,0,0,0.45)] transition-transform duration-300 hover:scale-[1.015]">
           <Image
-src="/cv/rizwan-adji-pratama-putra-cv.jpeg"
+src="/CV/rizwan-adji-pratama-putra-cv.jpeg"
             alt="Rizwan Adji Pratama Putra CV"
             width={1200}
             height={1700}
@@ -22,7 +22,7 @@ src="/cv/rizwan-adji-pratama-putra-cv.jpeg"
         </div>
         <div className="flex justify-center mt-12">
           <a
-            href="/cv/rizwan-adji-pratama-putra-cv.pdf"
+            href="/CV/rizwan-adji-pratama-putra-cv.pdf"
             download
             className="group relative inline-flex items-center justify-center gap-3 rounded-full border-2 border-white/20 bg-white/[0.05] px-8 py-5 text-lg font-semibold text-white/90 shadow-xl backdrop-blur transition-all duration-300 hover:border-white/40 hover:bg-white/[0.15] hover:shadow-[0_20px_50px_rgba(255,255,255,0.15)] hover:shadow-glow-xl active:scale-[0.98]"
           >
